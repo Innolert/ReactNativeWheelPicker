@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   View,
   StyleSheet,
@@ -100,10 +101,10 @@ class TimePicker extends React.Component {
 }
 
 TimePicker.propTypes = {
-  initDate: React.PropTypes.string,
-  onTimeSelected: React.PropTypes.func,
-  hours: React.PropTypes.array,
-  minutes: React.PropTypes.array,
+  initDate: PropTypes.string,
+  onTimeSelected: PropTypes.func,
+  hours: PropTypes.array,
+  minutes: PropTypes.array,
 };
 
 // it takes in format '12 AM' and return 24 format
