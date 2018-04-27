@@ -51,7 +51,7 @@ class WheelPicker extends React.Component {
 }
 WheelPicker.propTypes = {
   ...View.propTypes,
-      onItemSelected: React.PropTypes.func,
+      onItemSelected: PropTypes.func,
       data: PropTypes.array,
       isCurved: PropTypes.bool,
       isCyclic: PropTypes.bool,
